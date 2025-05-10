@@ -1,0 +1,54 @@
+.relationship {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.relationship:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+  transition: 0.2s;
+}
+
+.relationship img {
+  float: left;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.user-details {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.relation {
+  display: inline-block;
+  height: 50px;
+  margin: auto 10px;
+  width: 50%;
+}
+.relation p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.relation p:nth-child(2) {
+  font-size: 0.9rem;
+  color: grey;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.group {
+  margin: auto;
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.debt-amount {
+  margin: 10px;
+  color: var(--credit);
+}

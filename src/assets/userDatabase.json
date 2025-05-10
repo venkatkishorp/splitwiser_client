@@ -1,0 +1,90 @@
+[
+    {
+        "userID": 12345678,
+        "name": "John Lockwood",
+        "profilePic": "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
+        "groupBalances": [
+            {
+                "groupID": 1234,
+                "groupName": "Weekend Dinners",
+                "friendBalances": [
+                    [12345679, 4.25, "Dinner at Joe's"],
+                    [12345680, -2.00, "Coffee meetup"]
+                ]
+            },
+            {
+                "groupID": 1235,
+                "groupName": "Movie Night Buddies",
+                "friendBalances": [
+                    [12345666, 2.25, "Movie tickets"],
+                    [12345688, -1.00, "Snacks during trip"]
+                ]
+            }
+        ]
+    },
+    {
+        "userID": 12345679,
+        "name": "Alice Morgan",
+        "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUlS3GCOdYAk0kRZ-9Z7jy1WS8tzCLcyGZ82ZBtGylPA-Lz3v7dbuJpPDQyFZWIBp0tc&usqp=CAU",
+        "groupBalances": [
+            {
+                "groupID": 2233,
+                "groupName": "Cab Sharing Group",
+                "friendBalances": [
+                    [12345678, 3.50, "Shared cab ride"],
+                    [12345679, 5.75, "Lunch outing"]
+                ]
+            },
+            {
+                "groupID": 2234,
+                "groupName": "Birthday Gifts Crew",
+                "friendBalances": [
+                    [12345666, 7.00, "Gift contribution"]
+                ]
+            }
+        ]
+    },
+    {
+        "userID": 12345680,
+        "name": "Brian Smith",
+        "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sGKiYQG44Dd9AR0VStRJn1MijFrGLIT8LrXU5sH5SDMaVuh6JNFWbBV0hDGtmsBnRgc&usqp=CAU",
+        "groupBalances": []
+    },
+    {
+        "userID": 12345666,
+        "name": "Clara Evans",
+        "profilePic": "https://www.unsw.edu.au/content/dam/images/medicine-health/population-health/headshots/2022-07-med-pop-health/2022-08-tewodros-profile.cropimg.width=335.crop=square.jpg",
+        "groupBalances": [
+            {
+                "groupID": 4455,
+                "groupName": "Beach Day Friends",
+                "friendBalances": [
+                    [12345688, 0.75, "Ice cream treat"],
+                    [12345680, 6.80, "Beach day expenses"],
+                    [12345666, 1.20, "Parking fees"]
+                ]
+            },
+            {
+                "groupID": 4456,
+                "groupName": "Concert Goers",
+                "friendBalances": [
+                    [12345688, 3.00, "Event tickets"]
+                ]
+            }
+        ]
+    },
+    {
+        "userID": 12345688,
+        "name": "Daniel Reed",
+        "profilePic": "https://www.hks.harvard.edu/sites/default/files/styles/square/public/2025-05/Commencement-Profile_Justin-Flynn_Square.jpg?itok=rmLBeX9l",
+        "groupBalances": [
+            {
+                "groupID": 5566,
+                "groupName": "Road Trip Gang",
+                "friendBalances": [
+                    [12345680, 9.10, "Road trip fuel"]
+                ]
+            }
+        ]
+    }
+]

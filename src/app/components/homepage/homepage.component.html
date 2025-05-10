@@ -1,0 +1,23 @@
+<app-header />
+
+<nav>
+  <app-sidebar />
+</nav>
+
+<main>
+  <div class="content-header">
+    <h1>Dashboard</h1>
+    <button class="settle-up">Settle up</button>
+    <p style="font-size: 0.9rem; color: rgb(96, 96, 96);">Total balance: <span style="font-size: 1.1rem; color: black; font-weight: bold;">${{ totalBalance | number: '1.2-2' }}</span></p>
+  </div>
+
+  <mat-tab-group>
+    <mat-tab label="You owe">
+      <app-debt-records />
+    </mat-tab>
+
+    <mat-tab label="You are owed">
+      <app-credit-records />
+    </mat-tab>
+  </mat-tab-group>
+</main>

@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 87vh;
+}
+
+.tab {
+  height: 50px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.tab:hover {
+  background-color: rgb(239, 239, 239);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab img {
+  height: 50%;
+  margin: 0 10px;
+}
+
+.tab p {
+  display: inline;
+  margin: 0 10px;
+  font-size: 0.9rem;
+}

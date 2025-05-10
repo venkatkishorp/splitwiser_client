@@ -1,0 +1,24 @@
+@for (group of creditRecord[0].groupBalances; track creditRecord[0].groupBalances.groupID) {
+  @for (expense of group.friendBalances; track expense.index) {
+    @if (expense[1] > 0) {
+      <div class="relationship">
+        <div class="user-details">
+          <img src="{{ getProfilePic(expense[0]) }}" alt="user">
+          
+          <div class="relation">
+            <p>{{ getName(expense[0]) }}</p>
+            <p>{{ expense[2] }}</p>
+          </div>
+
+          <div class="group">
+            <p>{{ group.groupName || "Non-group expense" }}</p>
+          </div>
+        </div>
+
+        <div class="debt-amount">
+          <h3>${{ (expense[1]) | number: '1.2-2' }}</h3>
+        </div>
+      </div>
+    }
+  }
+}

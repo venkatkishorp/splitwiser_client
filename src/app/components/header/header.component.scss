@@ -26,3 +26,14 @@ header {
 .profile-icon:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 670px) {
+  .profile-icon {
+    display: none;
+  }
+  
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+}

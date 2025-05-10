@@ -32,3 +32,49 @@ main {
   cursor: pointer;
   background-color: var(--secondary);
 }
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  nav {
+    width: 25%;
+  }
+  main {
+    margin-left: 28%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    width: 85px;
+  }
+  main {
+    margin: 100px 20%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  
+  main {
+    margin: 100px 15%;
+  }
+  
+  footer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  main {
+    margin: 100px 5%;
+  }
+
+  footer {
+    display: block;
+  }
+}

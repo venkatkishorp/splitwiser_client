@@ -1,6 +1,8 @@
 [
     {
         "userID": 12345678,
+        "emailID": "john.lockwood@example.com",
+        "password": "Lock@1234",
         "name": "John Lockwood",
         "profilePic": "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
         "groupBalances": [
@@ -25,6 +27,8 @@
     {
         "userID": 12345679,
         "name": "Alice Morgan",
+        "emailID": "alice.morgan@example.com",
+        "password": "Morgan#5678",
         "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUlS3GCOdYAk0kRZ-9Z7jy1WS8tzCLcyGZ82ZBtGylPA-Lz3v7dbuJpPDQyFZWIBp0tc&usqp=CAU",
         "groupBalances": [
             {
@@ -47,6 +51,8 @@
     {
         "userID": 12345680,
         "name": "Brian Smith",
+        "emailID": "brian.smith@example.com",
+        "password": "Brian$91011",
         "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3sGKiYQG44Dd9AR0VStRJn1MijFrGLIT8LrXU5sH5SDMaVuh6JNFWbBV0hDGtmsBnRgc&usqp=CAU",
         "groupBalances": []
     },
@@ -76,6 +82,8 @@
     {
         "userID": 12345688,
         "name": "Daniel Reed",
+        "emailID": "clara.evans@example.com",
+        "password": "Clara!1213",
         "profilePic": "https://www.hks.harvard.edu/sites/default/files/styles/square/public/2025-05/Commencement-Profile_Justin-Flynn_Square.jpg?itok=rmLBeX9l",
         "groupBalances": [
             {

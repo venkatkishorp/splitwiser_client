@@ -1,0 +1,41 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  background-color: black;
+  height: 100vh;
+}
+
+.background img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.login-div {
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  padding: 90px;
+  text-align: center;
+}
+
+.submit {
+  background-color: #005cbb;
+  border: var(--primary);
+  height: 50px;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.1rem;
+}
+.submit:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.submit:active {
+  opacity: 0.6;
+}

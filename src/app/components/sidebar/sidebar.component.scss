@@ -1,4 +1,4 @@
-.navbar {
+.navbar1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,4 +27,43 @@
   display: inline;
   margin: 0 10px;
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 850px) {
+  .tab p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .navbar1 {
+    display: none;
+  }
+
+  .navbar2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .tabs {
+    border-top: 1px solid var(--primary);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: none;
+  }
+
+  .logout {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .tab {
+    padding: 0;
+  }
 }

@@ -1,1 +1,29 @@
-<p>loginpage works!</p>
+<div class="login-div">
+  <div class="background">
+    <img src="https://c0.wallpaperflare.com/preview/718/52/926/adolescent-adult-blur-brazilian.jpg" alt="background">
+  </div>
+
+  <h1>Login</h1>
+
+  <p>
+    <mat-form-field style="width: 100%; margin-bottom: -10px;" appearance="outline">
+      <mat-label>Email ID</mat-label>
+      <input id="emailID" matInput placeholder="eg.: user@example.com" type="email" [(ngModel)]="inputEmailID">
+    </mat-form-field>
+  </p>
+  
+  <p>
+    <mat-form-field style="width: 100%; margin-bottom: -10px;" appearance="outline">
+      <mat-label>Password</mat-label>
+      <input id="password" matInput placeholder="Placeholder" type="password" [(ngModel)]="inputPassword">
+    </mat-form-field>
+  </p>
+
+  <button class="submit" (click)="authorize()">
+    Log in
+  </button>
+
+  @if (!validCreds) {
+    <p style="color: red; font-size: 0.8rem;">Incorrect credentials</p>
+  }
+</div>
